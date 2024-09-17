@@ -15,6 +15,7 @@
 <form action="{% url 'create_task' %}" method="POST">
     {% csrf_token %}
 
+
     <input type="text" name="title"placeholder="write a title">
     <textarea name="description" placeholder="write a description"></textarea>
     <button>Save</button>

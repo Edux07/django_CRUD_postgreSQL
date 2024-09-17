@@ -80,7 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'taskdb',
         'USER': 'postgres',
-        'PASSWORD': 'root',
+        'PASSWORD': '',
         'HOST': 'localhost',
         'PORT': '5432',
     }
